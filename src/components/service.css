@@ -1,0 +1,122 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Form Styling */
+.add-service-form {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-service-form input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.add-service-form button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-service-form button:hover {
+  background-color: #218838;
+}
+
+/* Service List Styling */
+.service-list {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0;
+  list-style: none;
+}
+
+.service-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+}
+
+.service-item h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.service-item p {
+  margin: 10px 0;
+  color: #666;
+}
+
+.service-item small {
+  color: #999;
+}
+
+/* Buttons for each service item */
+.service-item button {
+  padding: 8px 12px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.service-item button.edit-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.service-item button.edit-btn:hover {
+  background-color: #0056b3;
+}
+
+.service-item button.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.service-item button.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.service-item button.save-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.service-item button.save-btn:hover {
+  background-color: #218838;
+}
+
+.service-item button.cancel-btn {
+  background-color: #6c757d;
+  color: white;
+}
+
+.service-item button.cancel-btn:hover {
+  background-color: #5a6268;
+}
