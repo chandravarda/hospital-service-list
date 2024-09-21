@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hospital-service-list/static/css/main.25cba714.css",
+    "main.js": "/hospital-service-list/static/js/main.456e8335.js",
+    "static/js/453.25360eb6.chunk.js": "/hospital-service-list/static/js/453.25360eb6.chunk.js",
+    "static/media/logo.svg": "/hospital-service-list/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/hospital-service-list/index.html",
+    "main.25cba714.css.map": "/hospital-service-list/static/css/main.25cba714.css.map",
+    "main.456e8335.js.map": "/hospital-service-list/static/js/main.456e8335.js.map",
+    "453.25360eb6.chunk.js.map": "/hospital-service-list/static/js/453.25360eb6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25cba714.css",
+    "static/js/main.456e8335.js"
+  ]
+}
